@@ -18,6 +18,8 @@ Note: The .env file is currently not ignored in .gitignore.
 
 5. Start the development server : php artisan serve
 
-6. Open your browser and visit:  http://127.0.0.1:8000
+6. php artisan queue:work
 
-7. In terminal to run the tests : composer test
+7. Open your browser and visit:  http://127.0.0.1:8000
+
+8. In terminal to run the tests : composer test
