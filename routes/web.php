@@ -8,9 +8,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::get('/', function () {
-//     return redirect('/upload');
-// });
+Route::get('/', function () {
+    return redirect('/upload');
+});
 
 // Product CSV Import Route
 Route::post('/import/products', [ProductImportController::class, 'import']);
